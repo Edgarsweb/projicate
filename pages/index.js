@@ -61,31 +61,31 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.ourData}>
+        {/* <div className={styles.ourData}>
           <div className={styles.dataBlock}>
-          {/* <CodeOutlined className={styles.dataIcon}/> */}
+          <CodeOutlined className={styles.dataIcon}/>
           <p>Technical Background</p>
        
           </div>
           <div className={styles.dataBlock}>
-          {/* <FundOutlined className={styles.dataIcon}/> */}
+          <FundOutlined className={styles.dataIcon}/>
            <p>Full Automatation</p>
           </div>
           <div className={styles.dataBlock}>
-          {/* <DollarOutlined  className={styles.dataIcon}/> <p>Budgeting</p> */}
+          <DollarOutlined  className={styles.dataIcon}/> <p>Budgeting</p>
           </div>
           <div className={styles.dataBlock}>
-          {/* <FieldTimeOutlined  className={styles.dataIcon}/><p>Time Management</p> */}
+          <FieldTimeOutlined  className={styles.dataIcon}/><p>Time Management</p>
           </div>
           <div className={styles.dataBlock}>
-          {/* <UsergroupAddOutlined className={styles.dataIcon}/> */}
+          <UsergroupAddOutlined className={styles.dataIcon}/>
            <p>Happy Stakeholders</p>
           </div>
-          {/* <div className={styles.dataBlock}>
+          <div className={styles.dataBlock}>
             {" "}
             <h2>56+</h2> <p>eCommerce Solutions</p>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
 
     
 
