@@ -43,7 +43,7 @@ export default function Home() {
             <span>Proj</span>icate. You Trust, <span>We Handle ...</span>             
               </h1>
             <p className={styles.description}>
-              "Your ded<span>icate</span>d IT <span>Proj</span>ect Management and Digital Marketing Team in the routine of Digital Galaxy "
+              Your ded<span>icate</span>d IT <span>Proj</span>ect Management and Digital Marketing Team in the routine of Digital Galaxy. 
             </p>
           
 
@@ -182,7 +182,7 @@ export default function Home() {
                   {" "}
                   We have been trying to put together our long-term project requirements and
                   affordable project management cost. I am happy to say we finally hired the
-                  Projicate team and they have worked closely with us throughout
+                  Projicate Fteam and they have worked closely with us throughout
                   the process, staying on task, on target, and on budget. I also
                   appreciate their quick and courteous responses. I highly
                   recommend their service!
