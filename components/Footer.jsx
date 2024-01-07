@@ -89,7 +89,8 @@ function Footer() {
             <h6>Contact</h6>
             {/* <a href="tel:+1 716 221 86 86">+1 716 221 86 86</a> */}
             <a href="mailto:team.projicate@gmail.com">
-              <MailOutlined /> Send an Email
+              {/* <MailOutlined />  */}
+              Send an Email
             </a>
             <p>
               Yerevan <br />
