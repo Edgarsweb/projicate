@@ -2,27 +2,27 @@ import React from "react";
 import footerStyles from "../styles/Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import {
-  PhoneOutlined,
-  InstagramOutlined,
-  LinkedinOutlined,
-  FacebookOutlined,
-  TwitterOutlined,
-  YoutubeOutlined,
-  MailOutlined,
-  WhatsAppOutlined,
-} from "@ant-design/icons";
+// import {
+//   PhoneOutlined,
+//   InstagramOutlined,
+//   LinkedinOutlined,
+//   FacebookOutlined,
+//   TwitterOutlined,
+//   YoutubeOutlined,
+//   MailOutlined,
+//   WhatsAppOutlined,
+// } from "@ant-design/icons";
 import styles from "../styles/Home.module.css";
 
 function Footer() {
   return (
     <div>
       <footer className={footerStyles.footer}>
-        <div className={footerStyles.phoneCall}>
+        {/* <div className={footerStyles.phoneCall}>
           <Link href="https://wa.me/+79253807313">
             <WhatsAppOutlined className={styles.hireIcon} />
           </Link>
-        </div>
+        </div> */}
 
         <div className={footerStyles.row}>
           <div className={footerStyles.footerBlock}>
@@ -32,13 +32,13 @@ function Footer() {
             </p>
 
             <div className={footerStyles.socialMedia}>
-              <a href="https://www.instagram.com/projicate/">
+              {/* <a href="https://www.instagram.com/projicate/">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
 
                 <a href="https://wa.me/+79253807313">
                 < WhatsAppOutlined className={footerStyles.Whatsapp} />
-              </a>
+              </a> */}
 
               {/* <a href="https://www.linkedin.com/company/edxweb/">
                 <LinkedinOutlined className={footerStyles.Linkedin} />
