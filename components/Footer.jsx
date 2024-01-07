@@ -2,16 +2,16 @@ import React from "react";
 import footerStyles from "../styles/Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
-// import {
-//   PhoneOutlined,
-//   InstagramOutlined,
-//   LinkedinOutlined,
-//   FacebookOutlined,
-//   TwitterOutlined,
-//   YoutubeOutlined,
-//   MailOutlined,
-//   WhatsAppOutlined,
-// } from "@ant-design/icons";
+import {
+  PhoneOutlined,
+  InstagramOutlined,
+  LinkedinOutlined,
+  FacebookOutlined,
+  TwitterOutlined,
+  YoutubeOutlined,
+  MailOutlined,
+  WhatsAppOutlined,
+} from "@ant-design/icons";
 import styles from "../styles/Home.module.css";
 
 function Footer() {
@@ -20,7 +20,7 @@ function Footer() {
       <footer className={footerStyles.footer}>
         <div className={footerStyles.phoneCall}>
           <Link href="https://wa.me/+79253807313">
-            {/* <WhatsAppOutlined className={styles.hireIcon} /> */}
+            <WhatsAppOutlined className={styles.hireIcon} />
           </Link>
         </div>
 
@@ -32,13 +32,13 @@ function Footer() {
             </p>
 
             <div className={footerStyles.socialMedia}>
-              {/* <a href="https://www.instagram.com/projicate/">
+              <a href="https://www.instagram.com/projicate/">
                 <InstagramOutlined className={footerStyles.Insta} />
               </a>
 
                 <a href="https://wa.me/+79253807313">
                 < WhatsAppOutlined className={footerStyles.Whatsapp} />
-              </a> */}
+              </a>
 
               {/* <a href="https://www.linkedin.com/company/edxweb/">
                 <LinkedinOutlined className={footerStyles.Linkedin} />
@@ -89,7 +89,7 @@ function Footer() {
             <h6>Contact</h6>
             {/* <a href="tel:+1 716 221 86 86">+1 716 221 86 86</a> */}
             <a href="mailto:team.projicate@gmail.com">
-              {/* <MailOutlined /> Send an Email */}
+              <MailOutlined /> Send an Email
             </a>
             <p>
               Yerevan <br />
